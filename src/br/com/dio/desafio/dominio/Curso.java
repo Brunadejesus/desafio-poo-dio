@@ -1,34 +1,22 @@
 package br.com.dio.desafio.dominio;
 
-public class Curso {
-    private String titulo;
-    private String descricao;
+public class Curso extends Conteudo {
+
     private int cargaHoraria;
 
     //criando um construtor vazio
 
     public Curso() {
     }
-
-
-    // PARA PODEMOS  TRABALHAR COM OS ATRIBUTOS ACIMA NECESSITAMOS CRIAR O MÉTODO
-    //  GET E SET
-
-    public String getTitulo() {
-        return titulo;
+//************************************************************************************************
+    @Override
+    public double calcularXp() {
+        return XP_PADRAO*cargaHoraria;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
+//************************************************************************************************
+    // PARA PODEMOS  TRABALHAR COM OS ATRIBUTOS ACIMA NECESSITAMOS CRIAR O MÉTODO GET E SET.
 
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
 
     public int getCargaHoraria() {
         return cargaHoraria;
@@ -37,14 +25,18 @@ public class Curso {
     public void setCargaHoraria(int cargaHoraria) {
         this.cargaHoraria = cargaHoraria;
     }
-
+//************************************************************************************************
     // Criar um ToString para poder imprimir e verificar se tudo ficou correto;
     @Override
     public String toString() {
         return "Curso{" +
-                "titulo='" + titulo + '\'' +
-                ", descricao='" + descricao + '\'' +
+                "titulo='" + getTitulo() + '\'' +
+                ", descricao='" + getDescricao() + '\'' +
                 ", cargaHoraria=" + cargaHoraria +
                 '}';
+
+//************************************************************************************************
     }
+
+
 }
