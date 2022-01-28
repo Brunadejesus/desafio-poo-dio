@@ -1,4 +1,3 @@
-@@ -0,0 +1,151 @@
 <h1> Desafio: Aprenda na Prática Programação Orientada a Objetos</h1>
 
 <p> Sejam bem-vindos ao desafio: <strong>APRENDENDO NA PRÁTICA O PARADIGMA DE ORIENTAÇÃO A OBJETOS.</strong><br>Desafio este que tem a honra de co-criar com uma plataforma de cursos online <strong>< a href="https://web.digitalinnovation.one/">DIGITAL INNOVATION ONE</a></strong> 💛🧡 e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.<br>
@@ -148,5 +147,4 @@ Se possível:<br>
 
 
 ------------
-
-Disponibilizado com ♥ por [ cami-la ](https://www.linkedin.com/in/cami-la/ "cami-la").
+TRABALHO REALIZADO PELA PROFESSORA CAMILA DA PLATAFORMA DIO 
